@@ -1,0 +1,94 @@
+/* Estilização para o formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilização para os rótulos */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Estilização para os campos de entrada, seleção e textarea */
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  
+  /* Estilização para o botão */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilização para o cabeçalho e parágrafo */
+  h1, p {
+    text-align: center;
+    color: #007bff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Estilização para os campos de seleção (combobox) */
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Estilização para a caixa de texto (textarea) */
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    resize: vertical;
+  }
+  
+  /* Estilização para o campo de "Com urgência?" */
+  fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Estilização para os checkboxes */
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+ 
